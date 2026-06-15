@@ -1,0 +1,24 @@
+# Virtual environment
+venv/
+.env
+
+# PySpark / JVM temporary files
+spark-warehouse/
+metastore_db/
+derby.log
+*.log
+
+# Large local databases and metadata
+data/
+models/
+.ipynb_checkpoints/
+
+# Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Operating system files
+.DS_Store
+Thumbs.db

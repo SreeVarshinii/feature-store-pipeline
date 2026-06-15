@@ -1,0 +1,8 @@
+project: credit_feature_store
+registry: ../../data/online/registry.db
+provider: local
+offline_store:
+  type: file
+online_store:
+  type: sqlite
+  path: ../../data/online/online_store.db

@@ -1,0 +1,9 @@
+pyspark>=4.0.0
+delta-spark>=4.0.0
+feast>=0.30.0
+evidently>=0.4.0
+streamlit>=1.20.0
+scikit-learn>=1.0.0
+pandas>=2.0.0
+numpy>=1.20.0
+pyarrow>=10.0.0
