@@ -2,13 +2,10 @@
 
 This project demonstrates a production-grade **ML Infrastructure Pipeline** focused on robust ingestion, versioned feature storage, automated data drift monitoring, and an alert/quarantine retraining loop. 
 
-Rather than just a standard ETL pipeline, this showcases **ML infrastructure thinking**: treating features as versioned APIs, validating feature distribution changes before models degrade, and implementing low-latency online serving.
-
 ---
 
-## 📊 Business Impact & Summary
+## Summary
 
-> **💡 Portfolio Highlight:**
 > "Detected **36.7% drift** in the `annual_income` feature during a simulated economic stress event. By automatically catching and quarantining this cohort before model predictions degraded, and initiating a retraining loop, we successfully recovered model performance: **Accuracy improved by +8.9% (from 59.3% back to 68.2%)** and **AUC ROC recovered to 0.7475**."
 
 ### 📈 Model Performance Comparison
